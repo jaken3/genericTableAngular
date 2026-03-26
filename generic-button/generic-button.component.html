@@ -1,0 +1,15 @@
+<button
+  [ngClass]="class"
+  [attr.type]="type"
+  mat-icon-button
+  (click)="execute()"
+>
+  <span class="flex justify-center items-center gap-1">
+    @if(icon) {
+      <mat-icon>{{ icon }}</mat-icon>
+    }
+    @if(text) {
+      {{ text }}
+    }
+  </span>
+</button>
