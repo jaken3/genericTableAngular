@@ -24,7 +24,7 @@ import { Observable, of as observableOf, merge } from 'rxjs';
  *  userName: nombre_completo
  * }, id: 1}]
  * {header:'nombre', field:user.userName, isParent:true}
- * @author Luis Felipe Fernandez QVISION
+ * @author Luis Felipe Fernandez 
  */
 export interface GenericTableItem {
   header: string;
